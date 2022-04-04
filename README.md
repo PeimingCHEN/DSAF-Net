@@ -5,6 +5,6 @@ Official PyTorch implementation of Defocus and Similarity Attention Fusion Net (
 * Install Python 3.7.10, Pytorch 1.8.1, and CUDA 11.1
 * Install the dependencies: `pip install -r requirement.txt`<br>
 ## Overall Framework
-<img src="https://github.com/PeimingCHEN/DSAF-Net/blob/main/figures/Overall%20Framework.png" width="602" height="273"/><br/>
+<img src="https://github.com/PeimingCHEN/DSAF-Net/blob/main/models/Overall%20Framework.png" width="602" height="273"/><br/>
 ## Dataset
 You can find the WHU-MFM dataset [here](https://github.com/PeimingCHEN/WHU-MFM-Dataset). Please upload the training set to the 'dataset/' folder and the testing set to the 'test/' folder. Each sample consists of a focal stack with 5 images. We adopt the 480 × 360 version of WHU-MFM and shuffle it in the unit of the focal stack to train and test DSAF-Net.
