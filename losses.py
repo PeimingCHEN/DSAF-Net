@@ -20,9 +20,7 @@ def sequence_loss(flow_preds, flow_gt, gamma=0.8):
 class Vgg19(torch.nn.Module):
     def __init__(self, requires_grad=False):
         super(Vgg19, self).__init__()
-        vgg_model = torchvision.models.vgg19()
-        pre = torch.load('./vgg19-dcbb9e9d.pth')
-        vgg_model.load_state_dict(pre)
+        vgg_model = torchvision.models.vgg19(pretrained=True)
         vgg_pretrained_features = vgg_model.features
         self.slice1 = torch.nn.Sequential()
         self.slice2 = torch.nn.Sequential()
