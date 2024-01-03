@@ -1,5 +1,5 @@
 # DSAF-Net
-Official PyTorch implementation of Defocus and Similarity Attention Fusion Net (DSAF-Net) in paper [A Defocus and Similarity Attention-Based Cascaded Network for Multi-Focus and Misaligned Image Fusion](https://dx.doi.org/10.2139/ssrn.4216204), which is an end-to-end network to merge information from several multi-focus and misaligned images in the focal stack to obtain a clear and detailed image.
+Official PyTorch implementation of Defocus and Similarity Attention Fusion Net (DSAF-Net) in paper [A Defocus and Similarity Attention-Based Cascaded Network for Multi-Focus and Misaligned Image Fusion](https://doi.org/10.1016/j.inffus.2023.102125), which is an end-to-end network to merge information from several multi-focus and misaligned images in the focal stack to obtain a clear and detailed image.
 ## Installation
 * Download the repository: `git clone https://github.com/PeimingCHEN/DSAF-Net`.<br>
 * Install Python 3.7.10, Pytorch 1.8.1, and CUDA 11.1.
